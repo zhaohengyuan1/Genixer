@@ -1,0 +1,9 @@
+_base_ = [
+    'DEFAULT_TEST_REC_VARIANT.py',
+    'DEFAULT_TEST_GenQA_VARIANT.py',
+]
+
+DEFAULT_TEST_DATASET = dict(
+    **_base_.DEFAULT_TEST_GenQA_VARIANT,
+    **_base_.DEFAULT_TEST_REC_VARIANT,
+)

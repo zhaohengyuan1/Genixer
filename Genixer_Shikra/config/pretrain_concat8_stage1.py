@@ -1,0 +1,15 @@
+_base_ = ['_base_/dataset/mix_pretrain_concat8_withGenQA.py', '_base_/model/shikra.py', '_base_/train/train_fsdp.py']
+
+training_args = dict(
+    num_train_epochs=2,
+    output_dir=None,
+    per_device_train_batch_size=16,
+    gradient_accumulation_steps=1,
+)
+
+model_args = dict(
+    conv_args=dict(
+        tokenize_kwargs=dict(truncation_size=4096),
+    ),
+    model_name_or_path=None,
+)
