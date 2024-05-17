@@ -33,7 +33,6 @@ data_args = dict(
         padding=True,
         max_length=1024,
     ),
-
     # generate config
     gen_kwargs=dict(
         max_new_tokens=1024,

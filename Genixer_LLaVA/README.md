@@ -1,3 +1,0 @@
-- [Install](#install)
-- [Train](#train)
-- [Evaluation](#evaluation)

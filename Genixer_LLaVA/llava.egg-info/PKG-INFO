@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: llava
+Version: 0.1.0
+Summary: An automatic instruction data generation pipelien.
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch==2.1.2
+Requires-Dist: torchvision==0.16.2
+Requires-Dist: transformers==4.37.2
+Requires-Dist: tokenizers==0.15.1
+Requires-Dist: sentencepiece==0.1.99
+Requires-Dist: shortuuid==1.0.13
+Requires-Dist: accelerate==0.21.0
+Requires-Dist: peft==0.10.0
+Requires-Dist: bitsandbytes
+Requires-Dist: pydantic
+Requires-Dist: markdown2[all]
+Requires-Dist: numpy
+Requires-Dist: scikit-learn==1.2.2
+Requires-Dist: gradio==4.16.0
+Requires-Dist: gradio_client==0.8.1
+Requires-Dist: requests
+Requires-Dist: httpx==0.24.0
+Requires-Dist: uvicorn
+Requires-Dist: fastapi
+Requires-Dist: einops==0.6.1
+Requires-Dist: einops-exts==0.0.4
+Requires-Dist: timm==0.6.13
+Requires-Dist: bitsandbytes
+Requires-Dist: datasets==2.19.0
+Requires-Dist: deepspeed==0.12.6
+Requires-Dist: ninja
+Requires-Dist: wandb
+Requires-Dist: flash-attn==2.5.7
+
+- [Install](#install)
+- [Train](#train)
+- [Evaluation](#evaluation)

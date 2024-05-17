@@ -69,7 +69,7 @@ def process_image(data):
                 text_features = model.get_text_features(**text_inputs)
                 similarity_score = (image_features @ text_features.T).mean().item()
 
-            if similarity_score > 50:
+            if similarity_score > 60:
                 data_dict = {
                     "img_path": image_path,
                     "bbox": corr,
@@ -88,15 +88,11 @@ def process_image(data):
 
 
 def main():
-    # baseimgdir = '/dataset/lavis/openimagesv7/train0'
-    # queryfile = 'data/OpenImagev7_train0_imagequery.jsonl'
-    # text_path = '/home/aiops/zhaohhy/workspace/codes/shikra_github/results/shikra_ori_pretrain_genQA_3/multitest_GENREC_openimages_extra_prediction.jsonl'
-    # savefile = 'clipscores/GENREC_3_openimage_clipscores_over50_v2.jsonl'
 
-    baseimgdir = '/dataset/lavis/sbu_captions/images'
-    queryfile = 'data/PTP_SBU_830k_imagequery.jsonl'
-    text_path = '/home/aiops/zhaohhy/workspace/codes/shikra_github/results/shikra_ori_pretrain_genQA_3/multitest_GENREC_sbu830k_extra_prediction.jsonl'
-    savefile = 'clipscores/GENREC_3_sbu_830k_clipscores_over50_v2.jsonl'
+    baseimgdir = '/yourpath/sbu_captions/images'
+    queryfile = 'data/SBU_830k_imagequery.jsonl'
+    text_path = '/yourpath/multitest_GENREC_sbu830k_extra_prediction.jsonl'
+    savefile = 'clipscores/GENREC_sbu_830k_clipscores_over60.jsonl'
 
     all_images = [os.path.join(baseimgdir, json.loads(q)['image_path']) for q in open(queryfile, "r")]
     all_data = [json.loads(q)['pred'] for q in open(text_path, "r")]
