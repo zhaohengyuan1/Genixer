@@ -1,7 +1,5 @@
 # !/bin/bash
 
-modelname=llava-v1.5-7b
-
 modelname=llava-Genixer-915K-FT-8K-v1.5-7b
 
 python -m llava.eval.model_vqa_loader \
