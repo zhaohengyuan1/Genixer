@@ -3,7 +3,7 @@
 modelname=llava-Genixer-915K-FT-8K-v1.5-7b
 
 python -m llava.eval.model_vqa \
-    --model-path exp/$modelname \
+    --model-path checkpoints/$modelname \
     --question-file ./playground/data/eval/mm-vet/llava-mm-vet.jsonl \
     --image-folder ./playground/data/eval/mm-vet/mm-vet/images \
     --answers-file ./playground/data/eval/mm-vet/answers/$modelname.jsonl \

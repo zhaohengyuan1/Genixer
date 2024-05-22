@@ -9,7 +9,7 @@ CKPT=llava-Genixer-915K-FT-8K-v1.5-7b
 
 for IDX in $(seq 0 $((CHUNKS-1))); do
     CUDA_VISIBLE_DEVICES=${GPULIST[$IDX]} python -m llava.eval.model_vqa_loader \
-        --model-path exp/$CKPT \
+        --model-path checkpoints/$CKPT \
         --question-file ./playground/data/eval/seed_bench/llava-seed-bench.jsonl \
         --image-folder ./playground/data/eval/seed_bench \
         --answers-file ./playground/data/eval/seed_bench/answers/$CKPT/${CHUNKS}_${IDX}.jsonl \

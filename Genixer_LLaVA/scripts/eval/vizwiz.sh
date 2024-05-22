@@ -3,7 +3,7 @@
 modelname=llava-Genixer-915K-FT-8K-v1.5-7b
 
 python -m llava.eval.model_vqa_loader \
-    --model-path exp/$modelname \
+    --model-path checkpoints/$modelname \
     --question-file ./playground/data/eval/vizwiz/llava_test.jsonl \
     --image-folder /yourpath/vizwiz/test/ \
     --answers-file ./playground/data/eval/vizwiz/answers/$modelname.jsonl \

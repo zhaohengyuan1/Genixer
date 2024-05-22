@@ -4,7 +4,7 @@ SPLIT="mmbench_dev_20230712"
 modelname=llava-Genixer-915K-FT-8K-v1.5-7b
 
 python -m llava.eval.model_vqa_mmbench \
-    --model-path exp/$modelname \
+    --model-path checkpoints/$modelname \
     --question-file ./playground/data/eval/mmbench/$SPLIT.tsv \
     --answers-file ./playground/data/eval/mmbench/answers/$SPLIT/$modelname.jsonl \
     --single-pred-prompt \
