@@ -1,4 +1,0 @@
-checkpoints
-data
-exp
-llava

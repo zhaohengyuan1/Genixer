@@ -3,9 +3,10 @@
 # <img src="assets/genixer_logo.png" alt="Alt text for the image" width="40" height="45"> Empowering Multimodal Large Language Model as a Powerful Data Generator
 
 *An Automatic Visual Instruction Tuning Data
-Generation Pipeline.* [[Paper](https://arxiv.org/abs/2312.06731)] [[Dataset1](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets)] [[Dataset2](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets)]
+Generation Pipeline.
+<!-- * [[Paper](https://arxiv.org/abs/2312.06731)] [[Dataset1](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets)] [[Dataset2](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets)] -->
 
-[Hengyuan Zhao](https://github.com/zhaohengyuan1),  [Pan Zhou](https://panzhous.github.io/), and [Mike Zheng Shou](https://sites.google.com/view/showlab)
+<!-- [Hengyuan Zhao](https://github.com/zhaohengyuan1),  [Pan Zhou](https://panzhous.github.io/), and [Mike Zheng Shou](https://sites.google.com/view/showlab) -->
 
 
 ## Overview
