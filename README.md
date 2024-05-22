@@ -411,7 +411,7 @@ We run the CLIP-Driven REC data filtering with this script `multiprocess_evalcli
 bash Genixer_Shikra/multiprocess_evalclipscore.py
 ```
 
-## Citation
+<!-- ## Citation
 
 If you find Genixer useful, please cite using this BibTeX:
 
@@ -422,7 +422,7 @@ If you find Genixer useful, please cite using this BibTeX:
   journal={arXiv preprint arXiv:2312.06731},
   year={2023}
 }
-```
+``` -->
 
 ## Acknowledgement
 
