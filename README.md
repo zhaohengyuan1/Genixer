@@ -4,10 +4,6 @@
 
 *An Automatic Visual Instruction Tuning Data
 Generation Pipeline.
-<!-- * [[Paper](https://arxiv.org/abs/2312.06731)] [[Dataset1](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets)] [[Dataset2](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets)] -->
-
-<!-- [Hengyuan Zhao](https://github.com/zhaohengyuan1),  [Pan Zhou](https://panzhous.github.io/), and [Mike Zheng Shou](https://sites.google.com/view/showlab) -->
-
 
 ## Overview
 
@@ -410,19 +406,6 @@ We run the CLIP-Driven REC data filtering with this script `multiprocess_evalcli
 ```
 bash Genixer_Shikra/multiprocess_evalclipscore.py
 ```
-
-<!-- ## Citation
-
-If you find Genixer useful, please cite using this BibTeX:
-
-```bibtex
-@article{zhao2023genixer,
-  title={Genixer: Empowering Multimodal Large Language Models as a Powerful Data Generator},
-  author={Zhao, Henry Hengyuan and Zhou, Pan and Shou, Mike Zheng},
-  journal={arXiv preprint arXiv:2312.06731},
-  year={2023}
-}
-``` -->
 
 ## Acknowledgement
 
