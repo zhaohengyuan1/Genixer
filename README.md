@@ -267,7 +267,7 @@ pip install -r requirements.txt
 
 | Model Name | Checkpoints|
 |----------|---------------|
-|Genixer-shikra-7b| [Model weights](https://huggingface.co/Anonymous-G/Genixer-shikra-7b) |
+|Genixer-shikra-7b| Coming soon |
 |shikra-Genixer-350K-7b | [Model weights](https://huggingface.co/Anonymous-G/shikra-Genixer-350K-7b) |
 
 ### Image Datasets
