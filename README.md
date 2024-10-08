@@ -1,9 +1,6 @@
-<p align="Center">
-    <img src="assets/genixer_logo.png" alt="Genixer Logo" width="30" style="vertical-align: middle;">
-    <strong>Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator</strong>
-</p>
+## <img src="assets/genixer_logo.png" alt="Alt text for the image" width="40" height="45"> Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator
 
-<p align="Center">
+<p align="left">
     <a href="https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN"><strong>Henry Hengyuan Zhao</strong></a>
     ·
     <a href="https://panzhous.github.io/"><strong>Pan Zhou</strong></a>
