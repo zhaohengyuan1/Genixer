@@ -1,9 +1,26 @@
 
 
-# <img src="assets/genixer_logo.png" alt="Alt text for the image" width="40" height="45"> Empowering Multimodal Large Language Model as a Powerful Data Generator
+<div style="text-align: center;">
+  <img src="assets/genixer_logo.png" alt="Genixer Logo" width="40" height="45" style="vertical-align: middle;">
+  <h2 style="display: inline-block; vertical-align: middle; margin-left: 10px;">
+    Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator
+  </h2>
+</div>
 
-*An Automatic Visual Instruction Tuning Data
-Generation Pipeline.
+<p align="Center">
+    <a href="https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN"><strong>Henry Hengyuan Zhao</strong></a>
+    ·
+    <a href="https://panzhous.github.io/"><strong>Pan Zhou</strong></a>
+    ·
+    <a href="https://sites.google.com/view/showlab"><strong>Mike Zheng Shou</strong></a>
+    <br>
+    <br>
+        <a href="https://arxiv.org/abs/2312.06731"><img src='https://img.shields.io/badge/arXiv-Genixer-red' alt='Paper PDF'></a>
+        <a href='https://github.com/zhaohengyuan1/Genixer'><img src='https://img.shields.io/badge/Project_Page-Genixer-green' alt='Project Page'></a>
+        <a href='https://huggingface.co/Anonymous-G'><img src='https://img.shields.io/badge/HuggingFace-Genixer-yellow' alt='Hugging Face'></a>
+    <br>
+    <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
+  </p>
 
 ## Overview
 
