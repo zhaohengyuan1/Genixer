@@ -15,18 +15,21 @@
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
 
-## Overview
+## Inference Modes
 
 <p align="center">
     <img src="assets/genixer-main.png" width="100%"></a>
 </p>
 
-## 💡Key Contributions:
+## 🔎 Key Contributions:
 
 * **Pipeline** - We introduce an innovative multimodal data generation pipeline, Genixer, that inlcudes four steps: Instruction Data Collection, Instruction Template Design, Training MLLMs and Data Generation & Filtering. 
 * **Two Data Generators** - $\text{Genixer}_L$ and $\text{Genixer}_S$.
 * **Two Synthetic Datasets** - [915K VQA-like data](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets) and [350K REC-like data](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets). 
 
+## 👀 Findings:
+
+* Medium level synthetic VQA with Fuyu probability (0.5-0.7) would be benefit the model training. We consider that the data with higher probability primarily belong to the simple samples which would contribute less for finally model understanding.  
 
 
 **Usage and License Notices**: The data, and code is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of LLaMA, Vicuna. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. 
