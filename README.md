@@ -1,7 +1,5 @@
-
-
-<div style="text-align: center;">
-  <img src="assets/genixer_logo.png" alt="Genixer Logo" width="40" height="45" style="vertical-align: middle;">
+<div style="text-align: center; display: inline-block">
+  <img src="assets/genixer_logo.png" alt="Genixer Logo" width="30" style="vertical-align: middle;">
   <h2 style="display: inline-block; vertical-align: middle; margin-left: 10px;">
     Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator
   </h2>
