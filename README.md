@@ -420,7 +420,24 @@ We run the CLIP-Driven REC data filtering with this script `multiprocess_evalcli
 bash Genixer_Shikra/multiprocess_evalclipscore.py
 ```
 
-## Acknowledgement
+## 🙏 Acknowledgement
 
 - [LLaVA](https://github.com/haotian-liu/LLaVA): the codebase we built upon. 
 - [Shikra](https://github.com/shikras/shikra): the codebase we built upon. 
+
+
+## 🎓 Citation
+
+If you find Genixer useful, please cite using this BibTeX:
+
+```bibtex
+@misc{zhao2024genixerempoweringmultimodallarge,
+      title={Genixer: Empowering Multimodal Large Language Models as a Powerful Data Generator}, 
+      author={Henry Hengyuan Zhao and Pan Zhou and Mike Zheng Shou},
+      year={2024},
+      eprint={2312.06731},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2312.06731}, 
+}
+```
