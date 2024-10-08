@@ -1,4 +1,4 @@
-## <img src="assets/genixer_logo.png" alt="Alt text for the image" width="30" height="45"> Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator
+## <img src="assets/genixer_logo.png" alt="Alt text for the image" width="30"> Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator
 
 <p align="left">
     <a href="https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN"><strong>Henry Hengyuan Zhao</strong></a>
