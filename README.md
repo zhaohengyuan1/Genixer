@@ -1,9 +1,9 @@
-<div style="text-align: center; display: inline-block">
-  <img src="assets/genixer_logo.png" alt="Genixer Logo" width="30" style="vertical-align: middle;">
-  <h2 style="display: inline-block; vertical-align: middle; margin-left: 10px;">
+<p style="text-align: center;">
+  <img src="assets/genixer_logo.png" alt="Genixer Logo" width="40" height="45" style="vertical-align: middle;">
+  <span style="vertical-align: middle; font-size: 24px; margin-left: 10px;">
     Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator
-  </h2>
-</div>
+  </span>
+</p>
 
 <p align="Center">
     <a href="https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN"><strong>Henry Hengyuan Zhao</strong></a>
