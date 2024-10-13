@@ -94,10 +94,10 @@ pip install -e .
 
 ### Model Weights
 
-| Model Name | Checkpoints|
-|----------|---------------|
-|Genixer-llava-v1.5-7b| [Model weights](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) |
-|llava-Genixer-915K-FT-8K-v1.5-7b | [Model weights](https://huggingface.co/Anonymous-G/llava-Genixer-915K-FT-8K-v1.5-7b) |
+| Model Name | Checkpoints | Description |
+|----------|---------------| ----- |
+|Genixer-llava-v1.5-7b| [Model weights](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) | Data Generator |
+|llava-Genixer-915K-FT-8K-v1.5-7b | [Model weights](https://huggingface.co/Anonymous-G/llava-Genixer-915K-FT-8K-v1.5-7b) | Trained Model |
 
 
 ### Image Datasets
@@ -278,10 +278,10 @@ pip install -r requirements.txt
 
 ### Model Weights
 
-| Model Name | Checkpoints|
-|----------|---------------|
-|Genixer-shikra-7b| Coming soon |
-|shikra-Genixer-350K-7b | [Model weights](https://huggingface.co/Anonymous-G/shikra-Genixer-350K-7b) |
+| Model Name | Checkpoints | Description |
+|----------|---------------| ----- |
+|Genixer-shikra-7b| [Model weights](https://huggingface.co/Anonymous-G/shikra-Genixer-350K-7b) | Data Generator |
+|shikra-Genixer-350K-7b | [Model weights](https://huggingface.co/Anonymous-G/shikra-Genixer-350K-7b) | Trained Model |
 
 ### Image Datasets
 
