@@ -10,7 +10,7 @@
     <br>
         <a href="https://arxiv.org/abs/2312.06731"><img src='https://img.shields.io/badge/arXiv-Genixer-red' alt='Paper PDF'></a>
         <a href='https://github.com/zhaohengyuan1/Genixer'><img src='https://img.shields.io/badge/Project_Page-Genixer-green' alt='Project Page'></a>
-        <a href='https://huggingface.co/Anonymous-G'><img src='https://img.shields.io/badge/HuggingFace-Genixer-yellow' alt='Hugging Face'></a>
+        <a href='https://huggingface.co/Anonymous-G'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-yellow' alt='Hugging Face'></a>
     <br>
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
@@ -57,15 +57,6 @@ In accordance with the prevalence and practical relevance of real-world multi-mo
     <br>
     The illustration of proposed Fuyu-driven data filtering framework. The outputs of the framework compose a probability and a direct answer.
 </p>
-
-## Results
-
-<p align="center">
-    <img src="assets/mainresults.png" width="100%"> 
-    <br>
-    Comparison with SoTA methods on 12 benchmarks.
-</p>
-
 
 ## 🧸 Samples of Generated Data
 
