@@ -45,7 +45,7 @@
 
 <p align="center"><img src="./assets/genixer_4step.png" alt="pipeline"/></p>
 
-## Instruction Data Collection
+## 📷 Instruction Data Collection
 
 In accordance with the prevalence and practical relevance of real-world multi-modal tasks, we have carefully selected 9 representative multimodal tasks as listed in the following table for corresponding data generation. We categorize the VL tasks into two types: 4 Generic tasks and 5 grounding tasks.
 
@@ -55,7 +55,7 @@ In accordance with the prevalence and practical relevance of real-world multi-mo
     Overview of collected data for training two data generators.
 </p>
 
-## Data Filtering
+## 🏄 Data Filtering
 
 <p align="center">
     <img src="assets/fuyufiltering.png" width="100%">
@@ -64,7 +64,7 @@ In accordance with the prevalence and practical relevance of real-world multi-mo
 </p>
 
 
-## Inference Modes
+## 🍗 Inference Modes
 In an automatic data generation context, where image content is agnostic, preemptively determining the specific task type becomes particularly daunting,
 especially when it involves large-scale data creation purposes. Hence, we consider two key modes for visual instruction data generation: 1) **task-agnostic
 data generation** and 2) **task-specific data generation**.
