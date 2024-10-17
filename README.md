@@ -47,20 +47,16 @@
 
 ## 📷 Instruction Data Collection
 
-In accordance with the prevalence and practical relevance of real-world multi-modal tasks, we have carefully selected 9 representative multimodal tasks as listed in the following table for corresponding data generation. We categorize the VL tasks into two types: 4 Generic tasks and 5 grounding tasks.
+In accordance with the prevalence and practical relevance of real-world multi-modal tasks, we have carefully selected 9 representative multimodal tasks as listed in the following table for corresponding data generation. We categorize the VL tasks into two groups: 4 Generic tasks and 5 Grounding tasks.
 
 <p align="center">
     <img src="assets/datacollect.png" width="100%">
-    <br>
-    Overview of collected data for training two data generators.
 </p>
 
 ## 🏄 Data Filtering
-
+The illustration of proposed Fuyu-driven data filtering framework. The outputs of the framework compose a probability and a direct answer.
 <p align="center">
     <img src="assets/fuyufiltering.png" width="100%">
-    <br>
-    The illustration of proposed Fuyu-driven data filtering framework. The outputs of the framework compose a probability and a direct answer.
 </p>
 
 
@@ -74,10 +70,9 @@ data generation** and 2) **task-specific data generation**.
 </p>
 
 ## 🧸 Samples of Generated Data
-
+Selected examples generated from $\text{Genixer}_L$ and $\text{Genixer}_S$. The examples include Common VQA, Adv VQA, MC VQA, MD, and five grounding tasks.
 <p align="center">
-    <img src="https://github.com/sail-sg/Genixer/blob/main/assets/samplesofdata.png" width="100%"> <br>
-    Selected examples generated from $\text{Genixer}_L$ and $\text{Genixer}_S$. The examples include Common VQA, Adv VQA, MC VQA, MD, and five grounding tasks.
+    <img src="https://github.com/sail-sg/Genixer/blob/main/assets/samplesofdata.png" width="100%">
 </p>
 
 ## 58 Handwritten Generic Instructions
