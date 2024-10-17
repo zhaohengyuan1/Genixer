@@ -8,16 +8,28 @@
     <a href="https://sites.google.com/view/showlab"><strong>Mike Zheng Shou</strong></a>
     <br>
     <br>
-        <a href="https://arxiv.org/abs/2312.06731"><img src='https://img.shields.io/badge/arXiv-Genixer-red' alt='Paper PDF'></a>
-        <a href='https://github.com/zhaohengyuan1/Genixer'><img src='https://img.shields.io/badge/Project_Page-Genixer-green' alt='Project Page'></a>
+        <a  href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/03355.pdf"><img src='https://img.shields.io/badge/Paper-Genixer-blue' alt='Paper PDF'></a>
+        <a href="https://arxiv.org/abs/2312.06731"><img src='https://img.shields.io/badge/arXiv-Genixer-red' alt='arxiv'></a>
+        <!-- <a href='https://github.com/zhaohengyuan1/Genixer'><img src='https://img.shields.io/badge/Project_Page-Genixer-green' alt='Project Page'></a> -->
         <a href='https://huggingface.co/Anonymous-G'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models/Datasets-yellow' alt='Hugging Face'></a>
     <br>
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
 
+## 😊 An Automatic Multimodal Data Generation Pipeline:
+
+* **Instruction Data Collection**: We systematically collected 9 primary vision-language (VL) tasks, categorized into two main groups: Generic and Grounding multimodal tasks.
+
+* **Instruction Template Design**: We developed a two-level instruction template tailored separately for task-agnostic and task-specific data generation.
+
+* **Empowering MLLMs**: We obtained two data generators.
+
+* **Data Filtering**: We use Fuyu-8B as a third-party MLLM for free data quality assessment. Logistic probabilities are calculated to evaluate the correctness of each data sample. Additionally, we found that data with medium-level probabilities tend to contribute more to the final model performance.
+
 ## 🔎 Key Contributions:
 
-* **Two Data Generators** - [Genixer $_L$](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) and [Genixer $_S$](https://huggingface.co/Anonymous-G/Genixer-shikra-7b).
+* **Two Data Generators** - [Genixer $_L$](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) and [Genixer $_S$](https://huggingface.co/Anonymous-G/Genixer-shikra-7b). Genixer $_L$ can generate various types of data, including Common VQA, MC-VQA, and MD data, etc.Genixer $_S$ is specialized in generating grounding-like VQA data.
+
 * **Two Synthetic Datasets** - [915K VQA-like data](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets) and [350K REC-like data](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets) are two synthetic datasets for pretraining stage.
 
 * **8K Synthetic Dataset** - [llava_mix665k_synthetic_8k.jsonl](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets/blob/main/llava_mix665k_synthetic_8k.jsonl) is the mixed jsonl file for finetuning stage. Take it for enhancing your own MLLM.
@@ -55,9 +67,12 @@ In accordance with the prevalence and practical relevance of real-world multi-mo
 
 
 ## Inference Modes
+In an automatic data generation context, where image content is agnostic, preemptively determining the specific task type becomes particularly daunting,
+especially when it involves large-scale data creation purposes. Hence, we consider two key modes for visual instruction data generation: 1) **task-agnostic
+data generation** and 2) **task-specific data generation**.
 
 <p align="center">
-    <img src="assets/genixer-main.png" width="100%"></a>
+    <img src="assets/inference_modes.png" width="100%"></a>
 </p>
 
 ## 🧸 Samples of Generated Data
