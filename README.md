@@ -15,15 +15,9 @@
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
 
-## Inference Modes
-
-<p align="center">
-    <img src="assets/genixer-main.png" width="100%"></a>
-</p>
-
 ## 🔎 Key Contributions:
 
-* **Two Data Generators** - [Genixer$_L$](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) and [Genixer$_S$](https://huggingface.co/Anonymous-G/Genixer-shikra-7b).
+* **Two Data Generators** - [Genixer $_L$](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) and [Genixer $_S$](https://huggingface.co/Anonymous-G/Genixer-shikra-7b).
 * **Two Synthetic Datasets** - [915K VQA-like data](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets) and [350K REC-like data](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets) are two synthetic datasets for pretraining stage.
 
 * **8K Synthetic Dataset** - [llava_mix665k_synthetic_8k.jsonl](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets/blob/main/llava_mix665k_synthetic_8k.jsonl) is the mixed jsonl file for finetuning stage. Take it for enhancing your own MLLM.
@@ -57,6 +51,13 @@ In accordance with the prevalence and practical relevance of real-world multi-mo
     <img src="assets/fuyufiltering.png" width="100%">
     <br>
     The illustration of proposed Fuyu-driven data filtering framework. The outputs of the framework compose a probability and a direct answer.
+</p>
+
+
+## Inference Modes
+
+<p align="center">
+    <img src="assets/genixer-main.png" width="100%"></a>
 </p>
 
 ## 🧸 Samples of Generated Data
