@@ -20,7 +20,7 @@
 
 ## 🔎 Key Contributions
 
-* **Two Data Generators** - [Genixer $_L$](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) and [Genixer $_S$](https://huggingface.co/Anonymous-G/Genixer-shikra-7b). Genixer $_L$ can generate various types of data, including Common VQA, MC-VQA, and MD data, etc.Genixer $_S$ is specialized in generating grounding-like VQA data.
+* **Two Data Generators** - [Genixer$_L$](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) and [Genixer$_S$](https://huggingface.co/Anonymous-G/Genixer-shikra-7b). Genixer$_L$ can generate various types of data, including Common VQA, MC-VQA, and MD data, etc.Genixer$_S$ is specialized in generating grounding-like VQA data.
 
 * **Two Synthetic Datasets** - [915K VQA-like data](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets) and [350K REC-like data](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets) are two synthetic datasets for pretraining stage.
 
