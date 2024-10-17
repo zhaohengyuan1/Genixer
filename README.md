@@ -10,7 +10,7 @@
     <br>
         <a href="https://arxiv.org/abs/2312.06731"><img src='https://img.shields.io/badge/arXiv-Genixer-red' alt='Paper PDF'></a>
         <a href='https://github.com/zhaohengyuan1/Genixer'><img src='https://img.shields.io/badge/Project_Page-Genixer-green' alt='Project Page'></a>
-        <a href='https://huggingface.co/Anonymous-G'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-yellow' alt='Hugging Face'></a>
+        <a href='https://huggingface.co/Anonymous-G'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models/Datasets-yellow' alt='Hugging Face'></a>
     <br>
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
@@ -23,9 +23,10 @@
 
 ## 🔎 Key Contributions:
 
-* **Pipeline** - We introduce an innovative multimodal data generation pipeline, Genixer, that inlcudes four steps: Instruction Data Collection, Instruction Template Design, Training MLLMs and Data Generation & Filtering. 
-* **Two Data Generators** - $\text{Genixer}_L$ and $\text{Genixer}_S$.
-* **Two Synthetic Datasets** - [915K VQA-like data](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets) and [350K REC-like data](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets). 
+* **Two Data Generators** - [Genixer$_L$](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) and [Genixer$_S$](https://huggingface.co/Anonymous-G/Genixer-shikra-7b).
+* **Two Synthetic Datasets** - [915K VQA-like data](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets) and [350K REC-like data](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets) are two synthetic datasets for pretraining stage.
+
+* **8K Synthetic Dataset** - [llava_mix665k_synthetic_8k.jsonl](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets/blob/main/llava_mix665k_synthetic_8k.jsonl) is the mixed jsonl file for finetuning stage. Take it for enhancing your own MLLM.
 
 ## 👀 Findings:
 
