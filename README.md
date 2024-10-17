@@ -18,6 +18,8 @@
 
 ## 😊 An Automatic Multimodal Data Generation Pipeline:
 
+### If you find this repository helpful, we would greatly appreciate it if you could give it a star.
+
 * **Instruction Data Collection**: We systematically collected 9 primary vision-language (VL) tasks, categorized into two main groups: Generic and Grounding multimodal tasks.
 
 * **Instruction Template Design**: We developed a two-level instruction template tailored separately for task-agnostic and task-specific data generation.
