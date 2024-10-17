@@ -16,9 +16,24 @@
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
 
-## 😊 An Automatic Multimodal Data Generation Pipeline:
-
 ### If you find this repository helpful, we would greatly appreciate it if you could give it a star.
+
+## 🔎 Key Contributions
+
+* **Two Data Generators** - [Genixer $_L$](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) and [Genixer $_S$](https://huggingface.co/Anonymous-G/Genixer-shikra-7b). Genixer $_L$ can generate various types of data, including Common VQA, MC-VQA, and MD data, etc.Genixer $_S$ is specialized in generating grounding-like VQA data.
+
+* **Two Synthetic Datasets** - [915K VQA-like data](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets) and [350K REC-like data](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets) are two synthetic datasets for pretraining stage.
+
+* **8K Synthetic Dataset** - [llava_mix665k_synthetic_8k.jsonl](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets/blob/main/llava_mix665k_synthetic_8k.jsonl) is the mixed jsonl file for finetuning stage. Take it for enhancing your own MLLM.
+
+## 👀 Findings
+
+* Medium level synthetic VQA with Fuyu probability (0.5-0.7) would be benefit the model training. We consider that the data with higher probability primarily belong to the simple samples which would contribute less for finally model understanding.  
+
+
+**Usage and License Notices**: The data, and code is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of LLaMA, Vicuna. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. 
+
+## 😊 An Automatic Multimodal Data Generation Pipeline
 
 * **Instruction Data Collection**: We systematically collected 9 primary vision-language (VL) tasks, categorized into two main groups: Generic and Grounding multimodal tasks.
 
@@ -27,25 +42,6 @@
 * **Empowering MLLMs**: We obtained two data generators.
 
 * **Data Filtering**: We use Fuyu-8B as a third-party MLLM for free data quality assessment. Logistic probabilities are calculated to evaluate the correctness of each data sample. Additionally, we found that data with medium-level probabilities tend to contribute more to the final model performance.
-
-## 🔎 Key Contributions:
-
-* **Two Data Generators** - [Genixer $_L$](https://huggingface.co/Anonymous-G/Genixer-llava-v1.5-7b) and [Genixer $_S$](https://huggingface.co/Anonymous-G/Genixer-shikra-7b). Genixer $_L$ can generate various types of data, including Common VQA, MC-VQA, and MD data, etc.Genixer $_S$ is specialized in generating grounding-like VQA data.
-
-* **Two Synthetic Datasets** - [915K VQA-like data](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets) and [350K REC-like data](https://huggingface.co/datasets/Anonymous-G/GenixerForShikra-Datasets) are two synthetic datasets for pretraining stage.
-
-* **8K Synthetic Dataset** - [llava_mix665k_synthetic_8k.jsonl](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets/blob/main/llava_mix665k_synthetic_8k.jsonl) is the mixed jsonl file for finetuning stage. Take it for enhancing your own MLLM.
-
-## 👀 Findings:
-
-* Medium level synthetic VQA with Fuyu probability (0.5-0.7) would be benefit the model training. We consider that the data with higher probability primarily belong to the simple samples which would contribute less for finally model understanding.  
-
-
-**Usage and License Notices**: The data, and code is intended and licensed for research use only. They are also restricted to uses that follow the license agreement of LLaMA, Vicuna. The dataset is CC BY NC 4.0 (allowing only non-commercial use) and models trained using the dataset should not be used outside of research purposes. 
-
-## Genixer Pipeline
-
-Genixer contains four key steps, including 1) instruction data collection, 2) instruction template design, 3) empowering current MLLMs, and 4) data generation and filtering.
 
 <p align="center"><img src="./assets/genixer_4step.png" alt="pipeline"/></p>
 
