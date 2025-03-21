@@ -36,6 +36,9 @@
 
 * **8K Synthetic Dataset** - [llava_mix665k_synthetic_8k.jsonl](https://huggingface.co/datasets/Anonymous-G/GenixerforLLaVA-Datasets/blob/main/llava_mix665k_synthetic_8k.jsonl) is the mixed jsonl file for finetuning stage. Take it for enhancing your own MLLM.
 
+
+* **Two Fintuned Models** - [llava-Genixer-915K-FT-8K-v1.5-7b](https://huggingface.co/Anonymous-G/llava-Genixer-915K-FT-8K-v1.5-7b) and [shikra-Genixer-350K-7b](https://huggingface.co/Anonymous-G/shikra-Genixer-350K-7b).
+
 ## 👀 Findings
 
 * Medium level synthetic VQA with Fuyu probability (0.5-0.7) would be benefit the model training. We consider that the data with higher probability primarily belong to the simple samples which would contribute less for finally model understanding.  
