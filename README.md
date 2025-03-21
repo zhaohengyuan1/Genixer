@@ -24,7 +24,7 @@
 ## Peformance Improvements
 
 <p align="center">
-  <img src="./assets/performancecompare.png">
+  <img style="width: 80%" src="./assets/performancecompare.png">
 </p>
 
 
