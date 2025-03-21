@@ -1,6 +1,8 @@
-## <img src="assets/genixer_logo.png" alt="Alt text for the image" width="30"> Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator
 
-<p align="left">
+
+<h1 align="center"> <img src="assets/genixer_logo.png" alt="Alt text for the image" width="25"> Genixer: Empowering Multimodal Large Language Model as a Powerful Data Generator</h1>
+
+<p align="center">
     <a href="https://scholar.google.com/citations?user=QLSk-6IAAAAJ&hl=zh-CN"><strong>Henry Hengyuan Zhao</strong></a>
     ·
     <a href="https://panzhous.github.io/"><strong>Pan Zhou</strong></a>
@@ -16,7 +18,15 @@
     <b>Show Lab, National University of Singapore &nbsp; | &nbsp; Singapore Management University </b>
   </p>
 
-### If you find this repository helpful, we would greatly appreciate it if you could give it a star.
+### ⭐ If you find this repository helpful, we would greatly appreciate it if you could give it a star.
+
+
+## Peformance Improvements
+
+<p align="center">
+  <img src="./assets/performancecompare.png">
+</p>
+
 
 ## 🔎 Key Contributions
 
